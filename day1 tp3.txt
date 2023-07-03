@@ -1,0 +1,55 @@
+print factorial using recusrsion 
+def fact(n):
+    if n==1:
+        return 1
+    else:
+        return n * fact(n-1)
+        # TODO: write code...
+num=int(input())
+print(fact(num))
+
+
+pritn the sum of natural numbers
+
+def fact(n):
+    if n==0:
+        return 0
+    else:
+        return n + fact(n-1)
+        # TODO: write code...
+num=int(input())
+print(fact(num))
+
+
+fibanacci series using recurssion
+def fibn(n):
+    if n==0:
+        return 0
+    elif n==1:
+        return 1
+    else:
+        return fibn(n-1) + fibn(n-2)
+n=int(input('enter a number'))
+print(fibn(n))
+
+
+how to dynamic programming works
+
+Dynamic porgramming works by storing the result of subproblems so that when their solutions are required , they are at hand and we do not need to recalculate them.
+this technique of storing the value of subproblems is called memorization.by saving the values in the array, we save the time for computations of subproblems we have already come across.
+
+
+program to find the powers
+n=(int(input("enter a base")))
+n1=(int(input('enter a power')))
+print(n**n1) 
+
+program to find the powers using recursion
+def power(a,b):
+    if b==1:
+        return a
+    else:
+        return a*(power(a,b-1))
+n=(int(input("enter a base")))
+n1=(int(input('enter a power')))
+print(power(n,n1)) 
